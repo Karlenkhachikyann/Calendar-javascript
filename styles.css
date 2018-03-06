@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    width: 300px;
+    color: lightblue;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightslategray;
+}
+#table {
+   background-color: lightslategray;
+   text-align: center;
+   width: 300px;
+   line-height: 30px;
+}
+#month {
+    font-family:Helvetica, sans-serif;
+    padding: 0 20px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    white-space: nowrap; 
+}
+
+#previusMonth {   
+    border: none;
+    text-decoration: none;
+    background:skyblue;
+    font-family: Helvetica;
+    padding: 5px 11px;
+    border-radius: 20%;
+    color:gainsboro;
+}
+
+#nextMonth {
+    border: none;
+    text-decoration: none;
+    background-color: skyblue;
+    font-family: Helvetica;
+    padding: 5px 11px;
+    border-radius: 20%;
+    color:gainsboro;
+}
+
